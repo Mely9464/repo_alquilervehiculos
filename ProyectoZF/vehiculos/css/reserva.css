@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Popping', sans-serif;
+}
+
+body{
+ 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(100deg,#71b7e6,#9b59b6);
+}
+.container{
+    max-width: 600px;
+    max-height: 700px;
+    width: 70%;
+    height: 100%;
+    background:#fff;
+    padding: 50px 50px;
+    border-radius:5px;
+    display:flex;
+    margin-left: 400px;
+    align-items:center;
+    justify-content: center;
+    border-color:#0b485a;
+    
+  }
+
+
+  .container form .user-detalis{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px 20px;
+   
+}
+
+img{
+    border-radius:20px;
+}
+
+form .user-detalis .input-box{
+    margin-bottom: 10px;
+    width: calc(100% / 2 - 10px);
+}
+.user-detalis .input-box .details{
+    display:block;
+    font-weight: 60px;
+    margin-bottom: 5px;
+    font-size: 12px;
+
+}
+
+.user-detalis .input-box input{
+
+    height: 45px;
+    width:100%;
+    outline:none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 12px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+
+form .button{
+    height: 80px;
+    width: 420px;
+    margin:20px 0;
+    
+}
+
+
+button{
+  
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 10;
+    border-radius: 5px;
+    letter-spacing: 10px;
+    margin-left: 200px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+   
+}
+
+a{
+    margin-left:0px;
+    font-size: 15px;
+    color: white;
+    
+}
+
+
+laber:hover{
+    color: #b8b8b8;
+}
+
+button:active{
+    background-color:#0b485a;
+    width:95px;
+   
+}
+
+a:hover{
+    color: #b8b8b8;
+}
+
+ 
+nav{
+    background:#0b485a;
+    width: 100%;
+    height:70px;
+}
+
+
+.logo{
+
+    height:70px;
+    width:90px;
+}
+
+nav ul{
+
+    float:right;
+    margin-right: 20px;
+   
+}
+
+
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+ 
+}
+
+li a.active, li a:hover{
+    background:rgb(34, 124, 160);
+    transition: .5s;
+    
+}  
+
+form .button input{
+    
+    height: 60%;
+    width: 110%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 2000;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before{
+
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background: #9b59b6;
+}
+
+label{
+    font-size: 12px;
+
+ 
+}
+

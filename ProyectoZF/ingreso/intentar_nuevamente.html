@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <meta http-equiv="X-UA-Compatible" content="IE-edge">
+     <meta name="viewport" content="whidth-device-width,initial-scale=1.0">
+     <!-- Iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="css/ingreso.css"/>
+</head>
+
+<body class="text-center">
+  <main class="form-signin w-100 m-auto">
+
+   <!-- <form id="registro"> -->
+   
+     <nav>
+   
+            <img src="image/Logo de zuum.PNG" alt="" class="logo" width="100"/>
+        
+    <ul>
+    
+      <li><a href="../index.html">INICIO</a></li>
+     
+    </ul>
+     </nav>
+    <br><br><br>
+
+    <div class="container">
+         <div class="container_form">
+              <img src="login.jpg" width="300"  height="90"/> 
+
+              <h3>INTENTAR DE NUEVO</h3>
+              <font color: red></font>
+              <form action="validar.php" method="post">
+                <input type="text" id="email" name="email" placeholder="email">
+                <br>
+                <input type="password" id="password" name="password" placeholder="password">   
+                                
+                <br>
+                <a href="../conexionbd/index.html">Olvidaste la contraseña</a>
+                <br>
+                   
+    <!-- form footer -->
+    <div class="py-5">
+      <button type="submit" class="w-100 btn btn-info btn-dark" id="btnLogin" ;>Iniciar</button>
+      <button id="btnCargando" class="btn btn-group w-100 d-none" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        Validando...
+      </button>
+    </div>
+                   <!-- alertas -->
+    <div class="toast align-items-center text-bg-danger top-0 start-0" role="alert" aria-live="assertive"
+         aria-atomic="true">
+          <div class="d-flex">
+          <div class="toast-body">
+              Datos Incorrectos, intente de nuevo.
+           </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+            aria-label="Close"></button>
+           </div>      
+    </div>
+  
+    </form>
+
+     </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer  class="pie-pagina">
+      <nav>
+      <ul>
+    
+        <!--- <li><a href="#">Sobre Nosotros</a></li>
+         <li><a href="#">Terminos y condiciones</a></li>
+         <li><a href="#">Politicas y privacidad</a></li> ---->
+         <h6>&copy;2022 ZUMM - Contatenos: Teléfono: 3205505050 / Dirección Carrera 98 N° 71-30 Bogotá D.C.</h6>
+      </ul>
+      </nav>
+    </footer>
+  </body>
+  </html>
+
+    <!-- scripts personalizados -->
+  <script src="js/registro.js"></script>
+ 
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
